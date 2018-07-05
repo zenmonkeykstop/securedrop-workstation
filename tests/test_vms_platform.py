@@ -7,6 +7,7 @@ from qubesadmin import Qubes
 SUPPORTED_PLATFORMS = [
     "Fedora 26 (Twenty Six)",
     "Debian GNU/Linux 8 (jessie)",
+    "Debian GNU/Linux 9 (stretch)",
 ]
 
 WANTED_VMS = [

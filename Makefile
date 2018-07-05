@@ -103,6 +103,9 @@ test-base: assert-dom0 ## Runs tests for VMs layout
 test-svs: assert-dom0 ## Runs tests for SD SVS VM config
 	python -m unittest -v tests.test_svs.SD_SVS_Tests
 
+test-svs-disp: assert-dom0 ## Runs tests for SD SVS DISP VM
+	python -m unittest -v tests.test_svs_disp.SD_SVS_DISP_Tests
+
 test-journalist: assert-dom0 ## Runs tests for SD Journalist VM
 	python -m unittest -v tests.test_journalist_vm
 

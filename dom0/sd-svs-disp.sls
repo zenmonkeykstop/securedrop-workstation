@@ -16,10 +16,12 @@
 {% load_yaml as defaults -%}
 name:         sd-svs-disp
 present:
-  - template: fedora-26
-  - label:    green
+  - template:   sd-workstation-grsec
+  - label:      green
 prefs:
-  - netvm:    ""
+  - netvm:      ""
+  - kernel:     ""
+  - virt_mode:  hvm
 {%- endload %}
 
 {{ load(defaults) }}
